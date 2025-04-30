@@ -1,8 +1,8 @@
-# Hi, I'm [Your Name/Alias] 👋 | [Your Core Skill/Aspiration, e.g., Aspiring Gameplay Programmer, C++ Developer, Technical Artist]
+# Hi, I'm Michał Rusinek 👋 | [Your Core Skill/Aspiration, e.g., Aspiring Gameplay Programmer, C++ Developer, Technical Artist]
 
 ## 🚀 About Me
 
-* 👋 I'm [Your Name], a [Your Current Role/Status, e.g., Software Engineer, Computer Science Student, Game Developer] based in [Your Location, e.g., Warsaw, Poland].
+* 👋 I'm Micheal, a Unity Game Developer based in Wrocław Poland.
 * 🎮 **My Focus:** Deeply interested in [Specific Game Dev Areas, e.g., gameplay systems design, engine architecture, AI for NPCs, procedural generation, shader development, game physics]. My goal is to contribute to creating [Type of Games, e.g., engaging RPGs, fast-paced shooters, innovative indie titles].
 * 🔭 **Currently Working On:** [Specific Project & Contribution, e.g., Developing a character controller for my personal UE5 project, contributing C++ optimizations to an open-source game engine, building a level design tool in Unity].
 * 🌱 **Currently Learning:** [Relevant Skills/Technologies, e.g., Advanced C++, HLSL/Shader Programming, DOTS in Unity, Performance Optimization techniques, Animation State Machines].
