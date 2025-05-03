@@ -1,85 +1,107 @@
-# Hi, I'm Michał Rusinek 👋 | [Your Core Skill/Aspiration, e.g., Aspiring Gameplay Programmer, C++ Developer, Technical Artist]
+# Hi, I'm Michał Rusinek 👋 | [Wybierz JEDNO: C++ Game Developer / Unity Developer / Aspiring Gameplay Programmer / Technical Designer]
 
 ## 🚀 About Me
 
-* 👋 I'm Micheal, a Unity Game Developer based in Wrocław Poland.
-* 🎮 **My Focus:** Deeply interested in [Specific Game Dev Areas, e.g., gameplay systems design, engine architecture, AI for NPCs, procedural generation, shader development, game physics]. My goal is to contribute to creating [Type of Games, e.g., engaging RPGs, fast-paced shooters, innovative indie titles].
-* 🔭 **Currently Working On:** [Specific Project & Contribution, e.g., Developing a character controller for my personal UE5 project, contributing C++ optimizations to an open-source game engine, building a level design tool in Unity].
-* 🌱 **Currently Learning:** [Relevant Skills/Technologies, e.g., Advanced C++, HLSL/Shader Programming, DOTS in Unity, Performance Optimization techniques, Animation State Machines].
-* 👯 **Looking to Collaborate On:** [Types of Game Dev Projects, e.g., Game Jams (specify theme/engine if possible), Open-Source Game Tools, indie projects focusing on AI or physics].
-* 🤔 **Seeking Help With:** [Specific Game Dev Challenge, e.g., Optimizing draw calls in my Unity scene, understanding advanced multi-threading in C++ for game logic, best practices for networked physics].
-* 💬 **Ask Me About:** [Your Strong Areas in Game Dev, e.g., C++ fundamentals, Unity scripting (C#), Unreal Engine Blueprints/C++, basic game physics implementation, Git for game projects].
-* 📫 **How to Reach Me:** [Your Professional Email] | [LinkedIn Profile URL] | [Portfolio URL (Highly Recommended!)]
-* ⚡ **Fun Fact:** [Keep it concise & optionally game-related, e.g., Huge fan of souls-like games and analyzing their combat design / I recreated the PONG game in assembly language once.]
+* 👋 I'm Michał, a Game Developer based in Wrocław, Poland, passionate about bringing interactive experiences to life.
+* 🎮 **My Focus:** Deeply interested in **gameplay systems programming**, **character mechanics**, **AI behaviors** for NPCs, and **performance optimization**. My goal is to contribute to creating engaging and polished games, particularly [Wpisz preferowany gatunek, np. **RPGs, action games, or simulation titles**]. I enjoy bridging the gap between technical implementation and game design requirements.
+* 🔭 **Currently Working On:** [Bądź BARDZO konkretny - np. **'Implementing a flexible character controller using C++ in Unreal Engine 5 for my personal RPG project'** lub **'Developing procedural level generation tools in Unity for an upcoming game jam'**].
+* 🌱 **Currently Learning:** [Wymień technologie/koncepty dające przewagę - np. **Advanced C++ patterns for game architecture, Compute Shaders in Unity, multi-threaded programming concepts, profiling and optimization techniques in Unreal Engine**].
+* 👯 **Looking to Collaborate On:** Game jams (especially using **Unity** or **Unreal Engine**), open-source game development tools, or interesting indie projects needing **C++ / C# programming** support.
+* 🤔 **Seeking Help With:** Always eager to learn! Currently diving deeper into [Konkretne wyzwanie, np. **'advanced AI algorithms like Goal Oriented Action Planning (GOAP)'** or **'optimizing complex physics interactions in networked environments'**]. *(To pokazuje pokorę i chęć rozwoju)*
+* 💬 **Ask Me About:** My strong areas include **Unity C# scripting**, core **C++ principles for game development**, **Unreal Engine fundamentals (Blueprints/C++)**, version control with **Git** for team projects, and implementing core **gameplay mechanics**. [Wymień swoje MOCNE strony].
+* 📫 **How to Reach Me:** [Podaj profesjonalny email - np. michal.rusinek.dev@email.com] | [Link do Twojego LinkedIn - KONIECZNIE!] | [Link do PORTFOLIO - NAJWAŻNIEJSZE!]
+* ⚡ **Fun Fact:** [Coś krótkiego, może związanego z grami/tech? Np. 'I once tried to recreate System Shock's core mechanics in BASIC' lub 'My favorite game design challenge is crafting satisfying player feedback loops'].
 
 ---
 
 ## 🛠️ Core Skills & Technologies (Game Development Focus)
 
-*(Recruiters scan this heavily. Be specific and honest.)*
+*[KOMENTARZ: Rekruterzy skanują tę sekcję w poszukiwaniu słów kluczowych. Bądź precyzyjny i szczery co do poziomu zaawansowania.]*
 
-* **Programming Languages:** `C++` (Proficient/Intermediate/Basic), `C#` (Proficient/Intermediate/Basic), `Python` (for tooling/scripting), `JavaScript` (Web/UI if applicable)
-* **Game Engines:** `Unreal Engine` (Blueprints, C++, Specific Modules like Gameplay Ability System, Niagara), `Unity` (C#, URP/HDRP, DOTS, Shader Graph) `Godot Engine` (GDScript, C#), [Other Engines, e.g., CryEngine, Custom Engines]
-* **Core Game Dev Concepts:** Gameplay Programming, AI (Pathfinding, State Machines, Behavior Trees), Physics (Collision, Rigidbodies), Graphics Programming (Shaders - HLSL/GLSL, Rendering Pipelines), Network Programming (Replication, Lag Compensation - if applicable), Performance Optimization, Tools Development
-* **Software & Tools:** `Visual Studio`, `Rider`, `Git`/`Perforce`, `Blender`/`Maya` (Basic modeling/understanding), `Jira`/`Trello`, `Docker` (if used for build pipelines/tools)
-* **Platforms:** PC, [Console Experience, e.g., PS5/Xbox Series X Dev Kits - if applicable], [Mobile - iOS/Android], [Web - WebGL]
+* **Programming Languages:**
+    * `C++` [Oceń: **Proficient / Intermediate / Basic** - Bądź szczery!] (Focus on modern C++ if applicable: C++11/14/17/20)
+    * `C#` [Oceń: **Proficient / Intermediate / Basic**] (Focus on .NET aspects relevant to Unity)
+    * `Python` (Primarily for **tooling, automation, and scripting**)
+    * `HLSL`/`GLSL` [Oceń: **Basic / Intermediate**] (If you write shaders)
+    * `JavaScript` (If used for Web/UI/Tools)
+* **Game Engines:**
+    * `Unreal Engine` [Oceń: **Proficient / Intermediate / Basic**] (Specify strengths: **C++, Blueprints, Gameplay Ability System (GAS), Niagara VFX, AI Toolkit, Control Rig**)
+    * `Unity` [Oceń: **Proficient / Intermediate / Basic**] (Specify strengths: **C#, URP/HDRP, DOTS/ECS, Shader Graph, Animation Systems, UI Toolkit**)
+    * `Godot Engine` [Oceń: **Basic / Intermediate**] (GDScript, C# - if applicable)
+    * [Inne silniki, jeśli masz doświadczenie, np. **CryEngine, Custom Engine (specify C++ or other)**]
+* **Core Game Dev Concepts:**
+    * **Gameplay Systems Programming** (Character Controllers, Ability Systems, Inventory, Combat Mechanics)
+    * **AI** (Behavior Trees, State Machines, Pathfinding - A*, NavMesh)
+    * **Game Physics** (Collision Detection, Rigidbodies, Raycasting, understanding physics engines like PhysX/Chaos/Box2D)
+    * **Graphics Programming Basics** (Understanding of Rendering Pipelines, Shader development fundamentals - vertex/fragment shaders, lighting models)
+    * **Network Programming Basics** (Understanding Replication, Client-Server model - if applicable)
+    * **Performance Profiling & Optimization** (CPU/GPU profiling, memory management awareness)
+    * **Version Control** (**Git** - branching, merging, Git Flow/GitHub Flow; **Perforce** - basic understanding if applicable)
+    * **Tools Development** (Basic scripting for workflow improvement in-engine or external)
+* **Software & Tools:** `Visual Studio`, `Visual Studio Code`, `Rider`, `Git`, `Perforce (P4V)`, `CMake`, `Jira`/`Trello`, [Podstawy: `Blender`/`Maya`/`3ds Max`], [Narzędzia do debugowania/profilowania np. `RenderDoc`, `PIX`]
+* **Platforms:** `PC (Windows/Linux)`, [Doświadczenie z konsolami? `PS4/PS5/Xbox One/Series X` - nawet jeśli tylko hobbystycznie], [Mobile? `iOS/Android`], [Web? `WebGL`]
 
 <p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/>
-  <a href="https://www.unrealengine.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/unrealengine/unrealengine-original.svg" alt="unrealengine" width="40" height="40"/> </a>
-  <a href="https://unity.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/unity/unity-original.svg" alt="unity" width="40" height="40"/> </a>
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/>
+  <a href="https://www.unrealengine.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/unrealengine/unrealengine-original.svg" alt="unrealengine" width="40" height="40"/> </a>
+  <a href="https://unity.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/unity/unity-original.svg" alt="unity" width="40" height="40"/> </a>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="git" width="40" height="40"/>
-  </p>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
+  </p>
 
 ---
 
 ## ✨ Featured Game Development Projects
 
-*(This is CRUCIAL. Show, don't just tell. Link to repos AND ideally playable builds/videos/portfolio pages.)*
+*[KOMENTARZ: NAJWAŻNIEJSZA SEKCJA! Pokaż, co ZROBIŁEŚ. Użyj konkretnych czasowników akcji: 'Implemented', 'Designed', 'Optimized', 'Developed', 'Integrated', 'Refactored', 'Scripted', 'Built'. Link do REPO, a najlepiej GRYWALNE DEMO / VIDEO / WPIS NA PORTFOLIO jest KLUCZOWY! Bez tego ta sekcja traci 90% wartości.]*
 
-* **[Project Title 1 (e.g., UE5 RPG Prototype)](Link to Repo/Portfolio Page)**
-    * **Description:** A prototype exploring [Specific Mechanic, e.g., souls-like combat mechanics] built in Unreal Engine 5.
-    * **My Role/Contributions:** Implemented character controller using C++ and Enhanced Input, designed and scripted basic enemy AI using Behavior Trees, created custom VFX using Niagara.
-    * **Key Technologies:** `Unreal Engine 5`, `C++`, `Blueprints`, `Niagara`.
-    * **[Link to Video Demo/Playable Build if available]**
+* **[Project Title 1 (np. C++ Souls-like Combat System Prototype)](Link-do-REPO-lub-Portfolio)**
+    * **Description:** [Opisz krótko projekt i jego CEL, np. A prototype developed in Unreal Engine 5 focusing on responsive and challenging melee combat mechanics inspired by souls-like games.]
+    * **My Role/Contributions:** [Bądź BARDZO konkretny, użyj czasowników akcji: **Implemented** the character state machine using C++ and Gameplay Ability System (GAS). **Designed and scripted** enemy AI patterns using Behavior Trees. **Developed** custom animation blueprints for smooth attack combos. **Integrated** particle effects (Niagara) for visual feedback on hits and parries.]
+    * **Key Technologies:** `Unreal Engine 5`, `C++`, `Gameplay Ability System (GAS)`, `Blueprints`, `Behavior Trees`, `Niagara`.
+    * **[➡️ Link to Video Demo / Playable Build / Portfolio Page - BARDZO WAŻNE!]**
 
-* **[Project Title 2 (e.g., Unity Puzzle Game)](Link to Repo/Portfolio Page)**
-    * **Description:** A 2D puzzle game developed for [Platform, e.g., PC/Android] during [Context, e.g., Global Game Jam 2024].
-    * **My Role/Contributions:** Focused on core puzzle logic implementation in C#, designed UI using Unity UI toolkit, integrated particle effects for player feedback.
-    * **Key Technologies:** `Unity`, `C#`, `URP`.
-    * **[Link to Itch.io Page/Gameplay Video if available]**
+* **[Project Title 2 (np. Unity Physics-Based Puzzle Game)](Link-do-REPO-lub-Itch.io)**
+    * **Description:** [Opisz krótko grę i kontekst: A 2D puzzle game for PC developed solo/in a team for the Global Game Jam [Year], themed '[Theme]'. Focuses on manipulating physics objects to solve environmental puzzles.]
+    * **My Role/Contributions:** [Twoje zadania: **Developed** the core physics interaction logic using C# and Unity's physics engine (Rigidbody/Colliders). **Implemented** puzzle mechanics involving [krótki opis mechaniki, np. 'lasers and mirrors']. **Scripted** UI elements and game state management. **Integrated** audio feedback for player actions.]
+    * **Key Technologies:** `Unity`, `C#`, `URP` (lub `Built-in RP`), `Unity Physics`, `Unity UI`.
+    * **[➡️ Link to Itch.io Page / Gameplay Video / Portfolio Page]**
 
-* **[Project Title 3 (e.g., Graphics Shader Playground)](Link to Repo)**
-    * **Description:** Personal project exploring various shader techniques.
-    * **My Role/Contributions:** Implemented shaders for effects like [Examples: Toon Shading, Dissolve Effect, Water Simulation] using HLSL/GLSL for [Engine/Framework].
-    * **Key Technologies:** `HLSL`/`GLSL`, `Unity`/`Unreal Engine`/`OpenGL`/`Vulkan`.
+* **[Project Title 3 (np. Procedural Dungeon Generator Tool)](Link-do-REPO-lub-Portfolio)**
+    * **Description:** [Opisz projekt: A standalone tool or Unity/UE plugin designed to generate customizable dungeon layouts based on user-defined parameters.]
+    * **My Role/Contributions:** [Twoje zadania: **Designed and implemented** the generation algorithm [podaj typ algorytmu jeśli znasz, np. 'using Cellular Automata / BSP Trees']. **Developed** editor tools/UI (using Python/C# Editor Scripting/UE Slate/UMG) for parameter configuration. **Wrote** logic for placing rooms, corridors, and basic props.]
+    * **Key Technologies:** `C#`/`C++`/`Python`, `Unity Editor Scripting` / `Unreal Engine Editor Utilities`, [Algorytmy np. `BSP Trees`, `Cellular Automata`].
+    * **[➡️ Link to Demo Video / GitHub Repo with README / Portfolio Page]**
+
+*[KOMENTARZ: Dodaj więcej projektów, jeśli masz! Nawet mniejsze eksperymenty techniczne (np. shadery, systemy AI) są wartościowe, jeśli są dobrze opisane i pokazują Twoje umiejętności.]*
 
 ---
 
 ## 📊 GitHub Activity & Stats
 
-*(These show consistency and language focus. Keep it relevant.)*
+*[KOMENTARZ: Te statystyki pokazują Twoją aktywność i główne języki. Upewnij się, że linki są poprawne dla Twojego username 'Mr444-dev'. Prywatne repozytoria też mogą być liczone, jeśli chcesz (`&count_private=true`).]*
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Mr444-dev&show_icons=true&theme=highcontrast&hide_border=true&count_private=true)](https://github.com/Mr444-dev)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Mr444-dev&show_icons=true&theme=highcontrast&hide_border=true&count_private=true&rank_icon=github)](https://github.com/Mr444-dev)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Mr444-dev&layout=compact&theme=highcontrast&hide_border=true&langs_count=8&count_private=true)](https://github.com/Mr444-dev)
+
 ---
 
 ## 📫 Let's Connect!
 
-*(Make it easy for recruiters to reach out.)*
+*[KOMENTARZ: Ułatw kontakt rekruterom i innym deweloperom. Portfolio jest krytyczne w gamedev!]*
 
-I'm always open to discussing game development, new opportunities, or interesting tech!
+I'm always open to discussing game development, innovative tech, potential collaborations, or exciting opportunities in the industry! Feel free to reach out.
 
-* **📧 Email:** [your.professional.email@example.com]
-* **🔗 LinkedIn:** [https://linkedin.com/in/yourprofile]
-* ** Portfolio:** [https://your-portfolio-website.com] (Essential for showcasing visual work or demos!)
-* **🐦 Twitter:** [@YourTwitterHandle] (Optional, if professional/game-dev focused)
+* **📧 Email:** [Twój profesjonalny adres email - np. michal.rusinek.dev@email.com]
+* **🔗 LinkedIn:** [Link do Twojego profilu LinkedIn - MUSI BYĆ!]
+* **<0xF0><0x9F><0x96><0xA1>️ Portfolio:** [Link do Twojego portfolio online - KRYTYCZNE! Musi zawierać dema/videa projektów.]
+* **🐦 Twitter:** [@YourTwitterHandle] (Opcjonalnie, jeśli używasz profesjonalnie do dzielenia się postępami/przemyśleniami o gamedev)
 
 <p align="left">
-<a href="mailto:your.professional.email@example.com" target="_blank"><img align="center" src="https://cdn.simpleicons.org/gmail/red" alt="Email Me" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/yourprofile" target="_blank"><img align="center" src="https://cdn.simpleicons.org/linkedin/blue" alt="LinkedIn Profile" height="30" width="40" /></a>
-<a href="https://your-portfolio-website.com" target="_blank"><img align="center" src="https://cdn.simpleicons.org/googlechrome/grey" alt="My Portfolio" height="30" width="40" /></a>
+<a href="mailto:[Twój profesjonalny adres email]" target="_blank"><img align="center" src="https://cdn.simpleicons.org/gmail/red" alt="Email Me" height="30" width="40" /></a>
+<a href="[Link do Twojego profilu LinkedIn]" target="_blank"><img align="center" src="https://cdn.simpleicons.org/linkedin/blue" alt="LinkedIn Profile" height="30" width="40" /></a>
+<a href="[Link do Twojego portfolio online]" target="_blank"><img align="center" src="https://raw.githubusercontent.com/Mr444-dev/.github/main/icons/portfolio-icon.png" alt="My Portfolio" height="30" width="40" /></a> 
 </p>
 
 ---
