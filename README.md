@@ -1,9 +1,9 @@
-# Hi, I'm Michał Rusinek 👋 | [Wybierz JEDNO: C++ Game Developer / Unity Developer / Aspiring Gameplay Programmer / Technical Designer]
+# Hi, I'm Michał Rusinek 👋 |  Unity Developer / Indie Game Developer / Mobile 
 
 ## 🚀 About Me
 
-* 👋 I'm Michał, a Game Developer based in Wrocław, Poland, passionate about bringing interactive experiences to life.
-* 🎮 **My Focus:** Deeply interested in **gameplay systems programming**, **character mechanics**, **AI behaviors** for NPCs, and **performance optimization**. My goal is to contribute to creating engaging and polished games, particularly [Wpisz preferowany gatunek, np. **RPGs, action games, or simulation titles**]. I enjoy bridging the gap between technical implementation and game design requirements.
+* 👋 I'm Michał, a Game Developer passionate about bringing interactive experiences to life for all of my games.
+* 🎮 **My Focus:** Deeply interested in **Unity**, **Mobile Platform Development**, and **performance optimization**. My goal is to contribute to creating engaging and polished games. I enjoy bridging the gap between technical implementation and game design requirements.
 * 🔭 **Currently Working On:** [Bądź BARDZO konkretny - np. **'Implementing a flexible character controller using C++ in Unreal Engine 5 for my personal RPG project'** lub **'Developing procedural level generation tools in Unity for an upcoming game jam'**].
 * 🌱 **Currently Learning:** [Wymień technologie/koncepty dające przewagę - np. **Advanced C++ patterns for game architecture, Compute Shaders in Unity, multi-threaded programming concepts, profiling and optimization techniques in Unreal Engine**].
 * 👯 **Looking to Collaborate On:** Game jams (especially using **Unity** or **Unreal Engine**), open-source game development tools, or interesting indie projects needing **C++ / C# programming** support.
@@ -19,16 +19,11 @@
 *[KOMENTARZ: Rekruterzy skanują tę sekcję w poszukiwaniu słów kluczowych. Bądź precyzyjny i szczery co do poziomu zaawansowania.]*
 
 * **Programming Languages:**
-    * `C++` [Oceń: **Proficient / Intermediate / Basic** - Bądź szczery!] (Focus on modern C++ if applicable: C++11/14/17/20)
-    * `C#` [Oceń: **Proficient / Intermediate / Basic**] (Focus on .NET aspects relevant to Unity)
-    * `Python` (Primarily for **tooling, automation, and scripting**)
-    * `HLSL`/`GLSL` [Oceń: **Basic / Intermediate**] (If you write shaders)
-    * `JavaScript` (If used for Web/UI/Tools)
+    * `C#` **Proficient**
+    * `C++` **Intermediate**
+    * `Python`
 * **Game Engines:**
-    * `Unreal Engine` [Oceń: **Proficient / Intermediate / Basic**] (Specify strengths: **C++, Blueprints, Gameplay Ability System (GAS), Niagara VFX, AI Toolkit, Control Rig**)
-    * `Unity` [Oceń: **Proficient / Intermediate / Basic**] (Specify strengths: **C#, URP/HDRP, DOTS/ECS, Shader Graph, Animation Systems, UI Toolkit**)
-    * `Godot Engine` [Oceń: **Basic / Intermediate**] (GDScript, C# - if applicable)
-    * [Inne silniki, jeśli masz doświadczenie, np. **CryEngine, Custom Engine (specify C++ or other)**]
+    * `Unity` **Proficient** **C#, URP, DOTS/ECS**)
 * **Core Game Dev Concepts:**
     * **Gameplay Systems Programming** (Character Controllers, Ability Systems, Inventory, Combat Mechanics)
     * **AI** (Behavior Trees, State Machines, Pathfinding - A*, NavMesh)
@@ -86,17 +81,6 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Mr444-dev&layout=compact&theme=highcontrast&hide_border=true&langs_count=8&count_private=true)](https://github.com/Mr444-dev)
 
 ---
-
-## 📫 Let's Connect!
-
-*[KOMENTARZ: Ułatw kontakt rekruterom i innym deweloperom. Portfolio jest krytyczne w gamedev!]*
-
-I'm always open to discussing game development, innovative tech, potential collaborations, or exciting opportunities in the industry! Feel free to reach out.
-
-* **📧 Email:** [Twój profesjonalny adres email - np. michal.rusinek.dev@email.com]
-* **🔗 LinkedIn:** [Link do Twojego profilu LinkedIn - MUSI BYĆ!]
-* **<0xF0><0x9F><0x96><0xA1>️ Portfolio:** [Link do Twojego portfolio online - KRYTYCZNE! Musi zawierać dema/videa projektów.]
-* **🐦 Twitter:** [@YourTwitterHandle] (Opcjonalnie, jeśli używasz profesjonalnie do dzielenia się postępami/przemyśleniami o gamedev)
 
 <p align="left">
 <a href="mailto:[Twój profesjonalny adres email]" target="_blank"><img align="center" src="https://cdn.simpleicons.org/gmail/red" alt="Email Me" height="30" width="40" /></a>
