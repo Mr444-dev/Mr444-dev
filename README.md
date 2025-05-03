@@ -9,7 +9,7 @@
 * 👯 **Looking to Collaborate On:** Game jams (especially using **Unity** or **Unreal Engine**), open-source game development tools, or interesting indie projects needing **C++ / C# programming** support.
 * 🤔 **Seeking Help With:** Always eager to learn! Currently diving deeper into [Konkretne wyzwanie, np. **'advanced AI algorithms like Goal Oriented Action Planning (GOAP)'** or **'optimizing complex physics interactions in networked environments'**]. *(To pokazuje pokorę i chęć rozwoju)*
 * 💬 **Ask Me About:** My strong areas include **Unity C# scripting**, version control with **Git** for team projects, and implementing core **gameplay mechanics**.
-* 📫 **How to Reach Me:** rusineczek1@gmail.com | Link do Twojego LinkedIn - KONIECZNIE!]
+* 📫 **How to Reach Me:** rusineczek1@gmail.com | LinkedIn - https://www.linkedin.com/in/micha%C5%82rusinek
 * ⚡ **Fun Fact:** [Coś krótkiego, może związanego z grami/tech? Np. 'I once tried to recreate System Shock's core mechanics in BASIC' lub 'My favorite game design challenge is crafting satisfying player feedback loops'].
 
 ---
@@ -32,7 +32,7 @@
     * **Version Control** (**Git** , GitHub Flow)
     * **Tools Development** (Basic scripting for workflow improvement in-engine or external)
 * **Software & Tools:** `Visual Studio`, `Rider`, `Git`, `CMake`, `Jira`, `Blender`
-* **Platforms:** `PC (Windows)`,[Mobile `Android`]
+* **Platforms:** `PC (Windows)`, `Mobile (Android)`
 
 <p align="left">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/>
