@@ -3,56 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Twoja Profesjonalna Strona</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Michał Rusinek - Portfolio</title>
+    <style>
+        /* Opcjonalny styl dla kursora */
+        .typed-cursor {
+            opacity: 1;
+            animation: typedjsBlink 0.7s infinite;
+        }
+        @keyframes typedjsBlink {
+            50% { opacity: 0.0; }
+        }
+    </style>
 </head>
 <body>
 
-    <header>
-        <nav>
-            <div class="logo">Twoje Logo/Imię</div>
-            <ul>
-                <li><a href="#about">O mnie/O firmie</a></li>
-                <li><a href="#services">Usługi/Portfolio</a></li>
-                <li><a href="#contact">Kontakt</a></li>
-            </ul>
-        </nav>
-    </header>
+    <h1>Cześć, jestem Michał Rusinek</h1>
+    <h2>Jestem <span id="typed-output"></span></h2>
 
-    <main>
-        <section id="hero">
-            <h1>Witaj na mojej stronie!</h1>
-            <p>Krótki, chwytliwy opis tego, co robisz lub oferujesz.</p>
-            <a href="#contact" class="cta-button">Skontaktuj się</a>
-        </section>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
-        <section id="about">
-            <h2>O mnie / O firmie</h2>
-            <p>Tutaj umieść bardziej szczegółowy opis. Kim jesteś? Czym się zajmuje Twoja firma? Jakie masz doświadczenie? Co Cię wyróżnia?</p>
-            </section>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var options = {
+                strings: [
+                    'Unity Developerem.',
+                    'Indie Game Developerem.',
+                    'programistą C#.',
+                    'entuzjastą optymalizacji.',
+                    'kreatywnym twórcą gier.'
+                    // Dodaj więcej tekstów, jeśli chcesz
+                ],
+                typeSpeed: 50,  // Szybkość pisania (milisekundy na znak)
+                backSpeed: 30,  // Szybkość kasowania
+                backDelay: 1000, // Opóźnienie przed rozpoczęciem kasowania
+                startDelay: 500, // Opóźnienie przed rozpoczęciem animacji
+                loop: true,     // Czy animacja ma się zapętlać?
+                showCursor: true, // Czy pokazywać kursor?
+                cursorChar: '|', // Znak kursora
+            };
 
-        <section id="services">
-            <h2>Usługi / Portfolio Projektów</h2>
-            <div class="service-item">
-                <h3>Usługa / Projekt 1</h3>
-                <p>Krótki opis usługi lub projektu. Co zostało zrobione, jakie technologie użyto?</p>
-                </div>
-            <div class="service-item">
-                <h3>Usługa / Projekt 2</h3>
-                <p>Krótki opis kolejnej usługi lub projektu.</p>
-            </div>
-            </section>
-
-        <section id="contact">
-            <h2>Kontakt</h2>
-            <p>Zachęć do kontaktu. Podaj preferowane formy (email, telefon, formularz).</p>
-            <p>Email: <a href="mailto:twoj.email@example.com">twoj.email@example.com</a></p>
-            </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2025 Twoje Imię/Nazwa Firmy. Wszelkie prawa zastrzeżone.</p>
-        </footer>
+            // Inicjalizacja Typed.js na elemencie o ID 'typed-output'
+            var typed = new Typed('#typed-output', options);
+        });
+    </script>
 
 </body>
 </html>
