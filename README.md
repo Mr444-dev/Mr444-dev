@@ -9,7 +9,7 @@
 * 👯 **Looking to Collaborate On:** Game jams (especially using **Unity**), open-source game development tools, or interesting indie projects needing **C# / C++ programming** support.
 * 🤔 **Seeking Help With:** Always eager to learn! Currently diving deeper into **'Advanced AI algorithms'**,**'Optimizing Performence'**, **'Level Structure'**].
 * 💬 **Ask Me About:** My strong areas include **Unity C# scripting**, version control with **Git** for team projects, and implementing core **gameplay mechanics**.
-* 📫 **How to Reach Me:** rusineczek1@gmail.com
+* 📫 **How to Reach Me:** michael.rusinek.contact@gmail.com
 * ⚡ **Fun Fact:** [Coś krótkiego, może związanego z grami/tech? Np. 'I once tried to recreate System Shock's core mechanics in BASIC' lub 'My favorite game design challenge is crafting satisfying player feedback loops'].
 
 ---
