@@ -1,7 +1,10 @@
 <div align="center">
 
-# Michał Rusinek
+<p align="center">
+  <img src="docs/assets/portfolio-mark.svg" alt="Michał Rusinek logo" width="96" height="96">
+</p>
 
+<h1 align="center">Michał Rusinek</h1>
 ### Software Engineer — Real-Time, Game Systems & Backend
 
 **C# · Unity · Unreal Engine · C++ · .NET · PostgreSQL · Go · Python**
@@ -29,6 +32,10 @@
 </div>
 
 ---
+
+
+
+<p align="center"><a href="#about">👋 About</a> &nbsp;·&nbsp; <a href="#01-humanitys-last-stand">01 / Humanity's Last Stand</a> &nbsp;·&nbsp; <a href="#02-blackhole-simulation">02 / Blackhole Simulation</a> &nbsp;·&nbsp; <a href="#03-pathdrawer">03 / PathDrawer</a></p>
 
 ## 👋 About
 
