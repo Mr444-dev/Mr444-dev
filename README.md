@@ -5,6 +5,7 @@
 </p>
 
 <h1 align="center">Michał Rusinek</h1>
+
 ### Software Engineer — Real-Time, Game Systems & Backend
 
 **C# · Unity · Unreal Engine · C++ · .NET · PostgreSQL · Go · Python**
