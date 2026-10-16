@@ -36,7 +36,7 @@
 
 
 
-<p align="center"><a href="#about">👋 About</a> &nbsp;·&nbsp; <a href="#01-humanitys-last-stand">01 / Humanity's Last Stand</a> &nbsp;·&nbsp; <a href="#02-blackhole-simulation">02 / Blackhole Simulation</a> &nbsp;·&nbsp; <a href="#03-pathdrawer">03 / PathDrawer</a></p>
+<p align="center"><a href="#about">👋 About</a> &nbsp;·&nbsp; <a href="#01-humanitys-last-stand">01 / Humanity's Last Stand</a> &nbsp;·&nbsp; <a href="#02-blackhole-simulation">02 / Blackhole Simulation</a> &nbsp;·&nbsp; <a href="#03-pathdrawer">03 / PathDrawer</a> &nbsp;·&nbsp; <a href="#04-gridshift-night-crew">04 / GRIDSHIFT</a></p>
 
 ## 👋 About
 
@@ -159,6 +159,31 @@ The goal was not simply to implement another gameplay feature.
 It was to turn a recurring development problem into a **reusable engineering tool**.
 
 **[Explore repositories →](https://github.com/Mr444-dev?tab=repositories)**
+
+---
+
+## 04 GRIDSHIFT: Night Crew
+
+**Roblox · Luau · Multiplayer · Rojo**
+
+> A cooperative Roblox MVP where a 1–4 player night crew diagnoses a fictional outage, repairs a panel, and routes power through a compact city.
+
+![GRIDSHIFT concept art: a night district linked by a glowing power route](https://raw.githubusercontent.com/Mr444-dev/GRIDSHIFT/main/assets/gridshift-key-art.png)
+
+*Presentation concept art; this is not an in-game screenshot.*
+
+### Engineering
+
+- server-owned mission phases, diagnosis, route validation, scoring, and XP
+- bounded validation for interaction phase, distance, payload, and request rate
+- player profiles using UpdateAsync, a session lease, and a temporary-data fallback
+- modular Luau services for mission flow, profiles, analytics, scoring, and procedural world construction
+
+### Status
+
+MVP source and a Rojo-built place file are included. Roblox Studio playtesting, mobile-device validation, and public publication are still pending. The repository README and release runbook document the next checks.
+
+**[Explore the source repository →](https://github.com/Mr444-dev/GRIDSHIFT)** · **[Read the case study →](https://github.com/Mr444-dev/GRIDSHIFT/blob/main/docs/portfolio-case-study.md)**
 
 ---
 
