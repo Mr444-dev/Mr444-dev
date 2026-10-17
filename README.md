@@ -1,3 +1,5 @@
+<a name="mr-top"></a>
+
 <p align="center">
   <picture>
     <source media="(max-width: 640px)" srcset="docs/assets/profile-banner-mobile.svg">
@@ -27,7 +29,23 @@
 
 ---
 
-## <img src="docs/assets/icon-layers.svg" width="28" height="28" alt=""> Selected work
+<p align="center">
+  <a href="#mr-work">Selected work</a> ·
+  <a href="#mr-skills">Skills</a> ·
+  <a href="#mr-more">More projects</a> ·
+  <a href="#mr-contact">Contact</a>
+</p>
+
+<a name="mr-work"></a>
+<h2 align="center"><img src="docs/assets/icon-layers.svg" width="28" height="28" alt=""> Selected work</h2>
+
+<p align="center">
+  <a href="#mr-game">Released game</a> ·
+  <a href="#mr-backend">Backend case study</a> ·
+  <a href="#mr-swarm">Unity source</a>
+</p>
+
+<a name="mr-game"></a>
 
 ### <img src="docs/assets/icon-game.svg" width="28" height="28" alt=""> 01 · Humanity’s Last Stand
 
@@ -52,6 +70,8 @@ A 3D aerial-combat game with enemy encounters, aircraft progression and weapon u
 
 ---
 
+<a name="mr-backend"></a>
+
 ### <img src="docs/assets/icon-server.svg" width="28" height="28" alt=""> 02 · Blackbox
 
 **Backend reliability prototype** · `C#` `ASP.NET Core` `EF Core` `PostgreSQL` `Kafka` `Docker`
@@ -75,6 +95,8 @@ What happens when a database transaction succeeds, but publishing its event fail
 </details>
 
 ---
+
+<a name="mr-swarm"></a>
 
 ### <img src="docs/assets/icon-nodes.svg" width="28" height="28" alt=""> 03 · Flying AI Swarm
 
@@ -103,18 +125,31 @@ This is a technical prototype. Reproducible frame-time and allocation captures a
 
 ---
 
-## <img src="docs/assets/icon-code.svg" width="28" height="28" alt=""> What I work with
+<p align="center"><a href="#mr-top">↑ Back to top</a></p>
 
-**Gameplay & tooling**<br>
-C# · Unity · gameplay implementation · state machines · formation strategies · object pooling · editor tooling
+<a name="mr-skills"></a>
+<h2 align="center"><img src="docs/assets/icon-code.svg" width="28" height="28" alt=""> What I work with</h2>
 
-**Backend & data**<br>
-ASP.NET Core · EF Core · PostgreSQL · SQL transactions · Kafka · outbox/inbox boundaries · retry behaviour
+<p align="center">
+  <strong>Gameplay &amp; tooling</strong><br>
+  C# · Unity · gameplay implementation · state machines<br>
+  Formation strategies · object pooling · editor tooling
+</p>
 
-**Verification & delivery**<br>
-xUnit · PostgreSQL integration tests · Playwright API tests · Git · Docker Compose · Android release preparation
+<p align="center">
+  <strong>Backend &amp; data</strong><br>
+  ASP.NET Core · EF Core · PostgreSQL · SQL transactions<br>
+  Kafka · outbox/inbox boundaries · retry behaviour
+</p>
 
-## <img src="docs/assets/icon-layers.svg" width="28" height="28" alt=""> More to explore
+<p align="center">
+  <strong>Verification &amp; delivery</strong><br>
+  xUnit · PostgreSQL integration tests · Playwright API tests<br>
+  Git · Docker Compose · Android release preparation
+</p>
+
+<a name="mr-more"></a>
+<h2 align="center"><img src="docs/assets/icon-layers.svg" width="28" height="28" alt=""> More to explore</h2>
 
 - [**Shared AR Workshop**](https://github.com/Mr444-dev/shared-ar-workshop) — Unity/C# AR prototype with a Node.js room relay and a recorded two-browser walkthrough. Physical-device AR validation is pending.
 - [**ProcureScope**](https://github.com/Mr444-dev/ProcureScope) — Python/PostgreSQL data pipeline with source-response archiving, record validation, dbt models and Airflow scheduling.
@@ -129,6 +164,7 @@ xUnit · PostgreSQL integration tests · Playwright API tests · Git · Docker C
 
 ---
 
+<a name="mr-contact"></a>
 <h2 align="center">Let’s build something useful.</h2>
 
 <p align="center">
@@ -144,3 +180,5 @@ xUnit · PostgreSQL integration tests · Playwright API tests · Git · Docker C
 <p align="center">
   <a href="mailto:michael.rusinek.contact@gmail.com">michael.rusinek.contact@gmail.com</a>
 </p>
+
+<p align="center"><a href="#mr-top">↑ Back to top</a></p>
