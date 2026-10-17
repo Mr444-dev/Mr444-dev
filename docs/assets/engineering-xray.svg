@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="172" viewBox="0 0 1200 172" role="img" aria-labelledby="title desc">
+  <title id="title">Engineering X-Ray</title>
+  <desc id="desc">Four views of a project: Final, System, Profile and Source.</desc>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#213146" stroke-width=".6"/></pattern>
+    <linearGradient id="background" x2="1" y2=".5"><stop stop-color="#0d1726"/><stop offset="1" stop-color="#14253a"/></linearGradient>
+  </defs>
+  <rect width="1200" height="172" rx="12" fill="url(#background)"/>
+  <rect width="1200" height="172" rx="12" fill="url(#grid)" opacity=".65"/>
+  <path d="M0 42V130" stroke="#79d6ff" stroke-width="5"/>
+  <text x="32" y="45" fill="#93abc1" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" letter-spacing="3">ENGINEERING X-RAY</text>
+  <path d="M45 81H1144" stroke="#3d526d" stroke-width="1.5"/>
+  <g fill="#0e1c2d" stroke="#79d6ff" stroke-width="2"><circle cx="46" cy="81" r="6"/><circle cx="342" cy="81" r="6"/><circle cx="638" cy="81" r="6"/><circle cx="934" cy="81" r="6"/></g>
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="24" font-weight="650" fill="#edf5ff"><text x="32" y="123">01 / FINAL</text><text x="328" y="123">02 / SYSTEM</text><text x="624" y="123">03 / PROFILE</text><text x="920" y="123">04 / SOURCE</text></g>
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="14" fill="#a9bfd3"><text x="32" y="150">See the result</text><text x="328" y="150">Understand the design</text><text x="624" y="150">Inspect the evidence</text><text x="920" y="150">Read the implementation</text></g>
+</svg>
