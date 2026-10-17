@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-labelledby="title"><title id="title">Games you can play. Code you can inspect. Unity, C# and .NET.</title><defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#102035"/><stop offset="1" stop-color="#0b1422"/></linearGradient>
+  <linearGradient id="accent"><stop stop-color="#79d6ff"/><stop offset="1" stop-color="#a6afff"/></linearGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#456180" stroke-width=".7" opacity=".25"/></pattern>
+</defs>
+<rect x="1" y="1" width="1198" height="238" rx="18" fill="url(#bg)" stroke="#34506c" stroke-width="2"/>
+<rect x="720" y="2" width="478" height="236" rx="17" fill="url(#grid)"/>
+<path d="M44 45h38" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
+<text x="98" y="51" fill="#a9bed2" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="600" letter-spacing="2.4">MR / ENGINEERING PORTFOLIO</text>
+<text x="44" y="119" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="44" font-weight="700">Games you can play.</text>
+<text x="44" y="174" fill="#79d6ff" font-family="Segoe UI, Arial, sans-serif" font-size="44" font-weight="700">Code you can inspect.</text>
+<text x="46" y="211" fill="#a9bed2" font-family="Segoe UI, Arial, sans-serif" font-size="16" letter-spacing="1">UNITY / C# / .NET</text>
+<g stroke="#39556f" fill="none" stroke-width="2"><path d="M820 71h70v91h76M820 161h70M1020 72v32M1020 160v31h-130"/><path d="M890 113h60" stroke-dasharray="5 6"/></g>
+<g transform="translate(750 45)"><rect width="88" height="68" rx="14" fill="#162d44" stroke="#79d6ff"/><g transform="translate(25 14) scale(1.5833333333333333)" fill="none" stroke="#79d6ff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10a4 4 0 0 1 3.9 3.2l1.5 7.2a2.6 2.6 0 0 1-4.3 2.4L15 17H9l-3.1 2.8a2.6 2.6 0 0 1-4.3-2.4l1.5-7.2A4 4 0 0 1 7 7Z"/><path d="M7 10v5m-2.5-2.5h5M15.5 11h.01M18 14h.01"/></g></g>
+<g transform="translate(750 129)"><rect width="88" height="68" rx="14" fill="#162d44" stroke="#79d6ff"/><g transform="translate(25 15) scale(1.5833333333333333)" fill="none" stroke="#79d6ff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m8 6-6 6 6 6m8-12 6 6-6 6m-3-15-2 18"/></g></g>
+<g transform="translate(962 70)"><rect width="120" height="98" rx="16" fill="#1e2848" stroke="#a6afff"/><g transform="translate(35 24) scale(2.0833333333333335)" fill="none" stroke="#bdc5ff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="7" rx="2"/><rect x="3" y="14" width="18" height="7" rx="2"/><path d="M7 6.5h.01M7 17.5h.01M12 6.5h5M12 17.5h5"/></g></g>
+<g fill="#79d6ff"><circle cx="890" cy="72" r="4"/><circle cx="890" cy="162" r="4"/><circle cx="890" cy="191" r="4"/></g>
+<path d="M1120 40v160" stroke="#34506c" stroke-width="1"/><text x="1150" y="156" transform="rotate(-90 1150 156)" font-family="Segoe UI, Arial, sans-serif" font-size="12" letter-spacing="3" fill="#94aec6">BUILD / EXPLAIN</text></svg>

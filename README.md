@@ -1,79 +1,146 @@
-<img align="right" src="docs/assets/portfolio-mark.svg" alt="MR monogram" width="72" height="72">
+<p align="center">
+  <picture>
+    <source media="(max-width: 640px)" srcset="docs/assets/profile-banner-mobile.svg">
+    <img src="docs/assets/profile-banner.svg" alt="Games you can play. Code you can inspect. Unity, C# and .NET." width="100%">
+  </picture>
+</p>
 
-# Michał Rusinek
+<h1 align="center">Michał Rusinek</h1>
+<p align="center"><strong>Software Engineer · Unity &amp; .NET</strong></p>
 
-**Software Engineer — Unity & .NET**<br>
-C# · Gameplay Systems · Backend Reliability
+<p align="center">
+  I build gameplay systems in <strong>Unity / C#</strong> and backend prototypes with <strong>.NET</strong>.<br>
+  Co-created and shipped <strong>Humanity’s Last Stand</strong> — <strong>1,000+ downloads on Google Play</strong>.
+</p>
 
-I build games in Unity and backend prototypes with .NET, PostgreSQL and Kafka. I co-created and shipped **Humanity’s Last Stand**, an Android game with **1,000+ downloads on Google Play**.
+<p align="center">
+  <a href="https://portfolio.michaelrusinek.workers.dev/"><img src="docs/assets/button-portfolio.svg" alt="Explore my portfolio" width="144" height="44"></a>
+  <a href="https://portfolio.michaelrusinek.workers.dev/cv/M_Rusinek_Software_Engineer.pdf"><img src="docs/assets/button-cv.svg" alt="Open my Software Engineer CV — PDF" width="144" height="44"></a>
+  <a href="https://www.linkedin.com/in/michaelrusinek/"><img src="docs/assets/button-linkedin.svg" alt="Connect on LinkedIn" width="144" height="44"></a>
+  <a href="mailto:michael.rusinek.contact@gmail.com"><img src="docs/assets/button-email.svg" alt="Email me" width="144" height="44"></a>
+</p>
 
-**Open to Software Engineer, Unity Developer and C#/.NET opportunities.** Based in Wrocław, Poland.
+<p align="center">
+  <strong>Open to Software Engineer, Unity Developer and C#/.NET roles</strong><br>
+  Wrocław, Poland · <a href="https://portfolio.michaelrusinek.workers.dev/cv/">Both CV editions</a>
+</p>
 
-**[Portfolio](https://portfolio.michaelrusinek.workers.dev/)** · **[CV](https://portfolio.michaelrusinek.workers.dev/cv/)** · **[LinkedIn](https://www.linkedin.com/in/michaelrusinek/)** · **[Email](mailto:michael.rusinek.contact@gmail.com)**
+---
 
-<br>
+## <img src="docs/assets/icon-layers.svg" width="28" height="28" alt=""> Selected work
 
-<img src="docs/assets/engineering-xray.svg" alt="Engineering X-Ray: Final, System, Profile, Source" width="100%">
+### <img src="docs/assets/icon-game.svg" width="28" height="28" alt=""> 01 · Humanity’s Last Stand
 
-## Selected work
+**Released Android game** · `Unity` `C#` · Two-person team
 
-### 01 / Humanity’s Last Stand
+A 3D aerial-combat game with enemy encounters, aircraft progression and weapon upgrades — taken from idea to public release.
 
-**Released Android game · Unity · C# · Two-person team**
+<p align="center">
+  <a href="https://portfolio.michaelrusinek.workers.dev/work/humanitys-last-stand/#project-recording"><img src="docs/assets/humanitys-last-stand.jpg" alt="Actual Humanity’s Last Stand gameplay — select to watch the recording" width="720"></a>
+</p>
 
-A 3D aerial-combat game with enemy encounters, aircraft progression and weapon upgrades. Also known during development as **Pig Invasion**.
+- **My role:** primary responsibility for programming and gameplay; also game design, testing, store icons and descriptions, and release preparation. My teammate focused mainly on models and assets. We developed and published the game together.
+- **Released:** **1,000+ downloads** on Google Play, as displayed on 16 October 2026. Known during development as *Pig Invasion*.
 
-<a href="https://portfolio.michaelrusinek.workers.dev/work/humanitys-last-stand/#project-recording"><img src="docs/assets/humanitys-last-stand.jpg" alt="Humanity’s Last Stand gameplay capture — open the case study to watch the recording" width="740"></a>
+<p>
+  <a href="https://portfolio.michaelrusinek.workers.dev/work/humanitys-last-stand/#project-recording"><img src="docs/assets/button-gameplay.svg" alt="Watch real gameplay" width="182" height="44"></a>
+  <a href="https://portfolio.michaelrusinek.workers.dev/work/humanitys-last-stand/"><img src="docs/assets/button-case-study.svg" alt="Read the game case study" width="150" height="44"></a>
+</p>
+<p>
+  <a href="https://play.google.com/store/apps/details?id=com.WPF.PigInvasion"><img src="docs/assets/google-play-badge.svg" alt="Get Humanity’s Last Stand on Google Play" width="180"></a>
+</p>
 
-- **My contribution:** primary responsibility for programming and gameplay implementation, plus game design, testing, store icons and descriptions, and release preparation. My teammate focused mainly on models and assets; we developed and published the game together.
-- **Result:** a public Android release with **1,000+ downloads**, as displayed by Google Play on 16 October 2026.
-- **See it:** real gameplay footage and a case study covering the project’s scope and evidence.
+---
 
-[**Watch gameplay →**](https://portfolio.michaelrusinek.workers.dev/work/humanitys-last-stand/#project-recording) · [Google Play](https://play.google.com/store/apps/details?id=com.WPF.PigInvasion) · [Case study](https://portfolio.michaelrusinek.workers.dev/work/humanitys-last-stand/)
+### <img src="docs/assets/icon-server.svg" width="28" height="28" alt=""> 02 · Blackbox
 
-### 02 / Blackbox
+**Backend reliability prototype** · `C#` `ASP.NET Core` `EF Core` `PostgreSQL` `Kafka` `Docker`
 
-**Backend prototype · C# · ASP.NET Core · EF Core · PostgreSQL · Kafka · Docker**
+What happens when a database transaction succeeds, but publishing its event fails? Blackbox explores that boundary in an order workflow using a **transactional outbox** and a Kafka worker.
 
-An order-workflow prototype exploring a concrete reliability problem: what happens when the database commits, but event publication fails?
+- **Implementation:** workflow state and outbox records commit together; a worker claims pending records and publishes them to Kafka.
+- **Evidence:** a public case study with code excerpts, a transaction diagram, failure scenarios and a dated test record. The repository is private.
 
-- **Implementation:** workflow state and outbox records share a PostgreSQL transaction; a worker claims pending rows with `FOR UPDATE SKIP LOCKED` and publishes to Kafka.
-- **Engineering detail:** the case study traces the crash window between Kafka acknowledgement and database commit. The current Inbox recognizes the same Kafka offset; logical-event deduplication and exactly-once business effects remain open work.
-- **Verification record:** the 14 October 2026 local run reports **71 unit tests, 6 PostgreSQL integration tests and 32 Playwright API scenarios passing**. These are functional checks, not load-test or production-availability results.
+<p>
+  <a href="https://portfolio.michaelrusinek.workers.dev/notes/transactional-outbox/"><img src="docs/assets/button-backend.svg" alt="Read the backend reliability case study" width="210" height="44"></a>
+</p>
 
-[**Read the transaction-boundary case study →**](https://portfolio.michaelrusinek.workers.dev/notes/transactional-outbox/)
+<details>
+<summary><strong>Technical review · transaction boundary, tests and current limits</strong></summary>
 
-Private repository; the public article includes code excerpts, a transaction diagram, test context and trade-offs.
+- **Concurrency:** the worker claims PostgreSQL rows with `FOR UPDATE SKIP LOCKED`.
+- **Failure window:** the article traces what happens between Kafka acknowledgement and database commit. The current Inbox recognizes the same Kafka offset; logical-event deduplication and exactly-once business effects remain open work.
+- **Recorded verification:** the **14 October 2026** local run reports **71 unit tests, 6 PostgreSQL integration tests and 32 Playwright API scenarios passing**. These are functional checks, not load tests or production-availability measurements.
 
-### 03 / Flying AI Swarm
+</details>
 
-**Public Unity prototype · C# · Jobs · Burst · Spatial Hashing**
+---
 
-Flying-agent behaviour with formation strategies, state machines and reusable enemy/projectile pools.
+### <img src="docs/assets/icon-nodes.svg" width="28" height="28" alt=""> 03 · Flying AI Swarm
 
-- **Inside the code:** a Burst-compiled `IJobParallelFor` evaluates flocking neighbours through a spatial hash; `FlockingSystem` manages native buffers and schedules jobs.
-- **Start the review:** inspect the [flocking job](https://github.com/Mr444-dev/Unity-Flying-AI-Swarm/blob/main/Assets/Scripts/FlyingAI/Flocking/FlockingJob.cs), [formation factory](https://github.com/Mr444-dev/Unity-Flying-AI-Swarm/blob/main/Assets/Scripts/FlyingAI/Formations/FormationFactory.cs) and [object pool](https://github.com/Mr444-dev/Unity-Flying-AI-Swarm/blob/main/Assets/Scripts/FlyingAI/Pooling/ObjectPoolBase.cs).
-- **Scope:** an inspectable technical prototype. Reproducible frame-time and allocation captures are still needed before quoting performance results.
+**Public Unity prototype** · `C#` `Jobs` `Burst` `Spatial Hashing`
 
-[**Explore source and setup →**](https://github.com/Mr444-dev/Unity-Flying-AI-Swarm) · [Source walkthrough](https://portfolio.michaelrusinek.workers.dev/work/flying-ai-swarm/)
+Flying-agent behaviour built around **flocking, formation strategies, state machines and reusable object pools**.
 
-## Technical focus
+- **Implementation:** a Burst-compiled `IJobParallelFor` evaluates nearby agents through a spatial hash; `FlockingSystem` manages native buffers and schedules jobs.
+- **Review path:** public source, a focused code tour and setup instructions — including what still needs validation.
 
-- **Gameplay and tools:** C#, Unity, gameplay implementation, finite-state machines, formation strategies, object pooling and editor tooling.
-- **Backend and data:** ASP.NET Core, EF Core, PostgreSQL, SQL transactions, Kafka, outbox/inbox boundaries and retry behaviour in portfolio prototypes.
-- **Verification:** xUnit, PostgreSQL integration tests, Playwright API tests, Git and Docker Compose; test results kept separate from performance claims.
+<p>
+  <a href="https://github.com/Mr444-dev/Unity-Flying-AI-Swarm"><img src="docs/assets/button-source.svg" alt="Explore Flying AI Swarm source and setup" width="180" height="44"></a>
+  <a href="https://portfolio.michaelrusinek.workers.dev/work/flying-ai-swarm/"><img src="docs/assets/button-walkthrough.svg" alt="Read the Flying AI Swarm code walkthrough" width="202" height="44"></a>
+</p>
 
-## More to explore
+<details>
+<summary><strong>Technical review · three source entry points and performance scope</strong></summary>
 
-- [**Shared AR Workshop**](https://github.com/Mr444-dev/shared-ar-workshop) — Unity/C# AR prototype with a Node.js room relay and a recorded two-browser relay walkthrough. Physical-device AR validation remains pending.
-- [**ProcureScope**](https://github.com/Mr444-dev/ProcureScope) — Python/PostgreSQL data-pipeline project with source-response archiving, record validation, dbt models and Airflow scheduling.
+1. [**FlockingJob.cs**](https://github.com/Mr444-dev/Unity-Flying-AI-Swarm/blob/main/Assets/Scripts/FlyingAI/Flocking/FlockingJob.cs) — parallel neighbour evaluation and flocking behaviour.
+2. [**FormationFactory.cs**](https://github.com/Mr444-dev/Unity-Flying-AI-Swarm/blob/main/Assets/Scripts/FlyingAI/Formations/FormationFactory.cs) — formation strategy selection.
+3. [**ObjectPoolBase.cs**](https://github.com/Mr444-dev/Unity-Flying-AI-Swarm/blob/main/Assets/Scripts/FlyingAI/Pooling/ObjectPoolBase.cs) — prewarming, reuse and pool expansion.
+
+This is a technical prototype. Reproducible frame-time and allocation captures are still needed before quoting performance results.
+
+</details>
+
+---
+
+## <img src="docs/assets/icon-code.svg" width="28" height="28" alt=""> What I work with
+
+**Gameplay & tooling**<br>
+C# · Unity · gameplay implementation · state machines · formation strategies · object pooling · editor tooling
+
+**Backend & data**<br>
+ASP.NET Core · EF Core · PostgreSQL · SQL transactions · Kafka · outbox/inbox boundaries · retry behaviour
+
+**Verification & delivery**<br>
+xUnit · PostgreSQL integration tests · Playwright API tests · Git · Docker Compose · Android release preparation
+
+## <img src="docs/assets/icon-layers.svg" width="28" height="28" alt=""> More to explore
+
+- [**Shared AR Workshop**](https://github.com/Mr444-dev/shared-ar-workshop) — Unity/C# AR prototype with a Node.js room relay and a recorded two-browser walkthrough. Physical-device AR validation is pending.
+- [**ProcureScope**](https://github.com/Mr444-dev/ProcureScope) — Python/PostgreSQL data pipeline with source-response archiving, record validation, dbt models and Airflow scheduling.
+
+<details>
+<summary><strong>Simulation & tooling experiments</strong></summary>
+
 - [**Blackhole Simulation**](https://portfolio.michaelrusinek.workers.dev/work/blackhole-simulation/) — gravitational-visualization experiment with a real project recording.
-- [**PathDrawer**](https://portfolio.michaelrusinek.workers.dev/work/pathdrawer/) — Unity trajectory-visualization tool, presented through a project capture; the original source is unavailable.
+- [**PathDrawer**](https://portfolio.michaelrusinek.workers.dev/work/pathdrawer/) — Unity trajectory-visualization tool presented through a project capture; the original source is unavailable.
 
-## How I explain my work
+</details>
 
-**Engineering X-Ray:** **Final** shows the result; **System** explains the design; **Profile** records measured behaviour and evidence gaps; **Source** points to code or an explicit access limitation.
+---
 
-I’m interested in the decisions underneath the demo: where state lives, what a retry changes, and what still needs to be measured.
+<h2 align="center">Let’s build something useful.</h2>
 
-**[Let’s talk about your team →](mailto:michael.rusinek.contact@gmail.com)**
+<p align="center">
+  Looking for an engineer who can connect gameplay, systems and delivery?<br>
+  <strong>I’m open to a conversation about your team.</strong>
+</p>
+
+<p align="center">
+  <a href="mailto:michael.rusinek.contact@gmail.com"><img src="docs/assets/button-email.svg" alt="Email me about an opportunity" width="144" height="44"></a>
+  <a href="https://portfolio.michaelrusinek.workers.dev/cv/M_Rusinek_Game_Systems.pdf"><img src="docs/assets/button-game-cv.svg" alt="Open my Game and Systems CV — PDF" width="178" height="44"></a>
+</p>
+
+<p align="center">
+  <a href="mailto:michael.rusinek.contact@gmail.com">michael.rusinek.contact@gmail.com</a>
+</p>
