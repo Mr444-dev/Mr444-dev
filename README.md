@@ -7,7 +7,7 @@
   </picture>
 </p>
 
-<h1 align="center">Michał Rusinek</h1>
+<h1 align="center">Michael Rusinek</h1>
 <p align="center"><strong>Software Engineer · Unity &amp; .NET</strong></p>
 
 <p align="center">
@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <a href="https://portfolio.michaelrusinek.workers.dev/"><img src="docs/assets/button-portfolio.svg" alt="Explore my portfolio" width="144" height="44"></a>
+  <a href="https://portfolio.michaelrusinek.workers.dev/"><img src="docs/assets/button-portfolio.svg" alt="Portfolio and demos — explore projects, gameplay and technical case studies" width="200" height="44"></a>
   <a href="https://portfolio.michaelrusinek.workers.dev/cv/M_Rusinek_Software_Engineer.pdf"><img src="docs/assets/button-cv.svg" alt="Open my Software Engineer CV — PDF" width="144" height="44"></a>
   <a href="https://www.linkedin.com/in/michaelrusinek/"><img src="docs/assets/button-linkedin.svg" alt="Connect on LinkedIn" width="144" height="44"></a>
   <a href="mailto:michael.rusinek.contact@gmail.com"><img src="docs/assets/button-email.svg" alt="Email me" width="144" height="44"></a>
@@ -178,6 +178,7 @@ This is a technical prototype. Reproducible frame-time and allocation captures a
 </p>
 
 <p align="center">
+  <a href="https://portfolio.michaelrusinek.workers.dev/">Portfolio — projects, demos &amp; CV</a><br>
   <a href="mailto:michael.rusinek.contact@gmail.com">michael.rusinek.contact@gmail.com</a>
 </p>
 

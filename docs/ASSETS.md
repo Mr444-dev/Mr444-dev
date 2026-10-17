@@ -4,6 +4,7 @@ The profile uses repository-hosted assets rather than an external badge-renderin
 
 - `assets/profile-banner.svg` and `assets/profile-banner-mobile.svg`: original vector artwork, with a compact version for narrow viewports.
 - `assets/button-*.svg` and `assets/icon-*.svg`: original navigation and section icons. Buttons retain text labels and links have descriptive alternative text in the README.
+- `assets/portfolio-avatar.svg`: the MR mark from the portfolio's [actual favicon](https://portfolio.michaelrusinek.workers.dev/favicon.svg), rendered at 512 × 512 with extra padding for GitHub's circular crop. It preserves the cream `#f2f0e9`, black `#0b0b0c` and blue `#245bff` palette and the original lettering/underscore arrangement. The avatar is available as a PNG export for upload to GitHub.
 - `assets/humanitys-last-stand.jpg`: actual project capture from the public [game case study](https://portfolio.michaelrusinek.workers.dev/work/humanitys-last-stand/), not an illustration of hypothetical gameplay.
 - `assets/google-play-badge.svg`: unmodified **GetItOnGooglePlay_Badge_Web_color_English.svg**, downloaded on 17 October 2026 from Google's [Partner Marketing Hub](https://partnermarketinghub.withgoogle.com/brands/google-play/google-play/lockups-icons-badges/?folder=86718). Google Play and the Google Play logo are trademarks of Google LLC. The badge links to the published game listing.
 

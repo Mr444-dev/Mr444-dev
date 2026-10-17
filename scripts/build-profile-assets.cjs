@@ -31,7 +31,7 @@ function button(name, label, kind, primary = false, width = 144) {
     icon(kind, fg, 17, 11, 21) +
     `<text x="47" y="27.5" font-family="${font}" font-size="14.5" font-weight="600" fill="${fg}">${esc(label)}</text>`));
 }
-button('portfolio', 'Portfolio', 'grid', true);
+button('portfolio', 'Portfolio & demos', 'grid', true, 200);
 button('cv', 'CV · PDF', 'file');
 button('linkedin', 'LinkedIn', 'person');
 button('email', 'Email me', 'mail');
@@ -53,7 +53,7 @@ const hero = `<defs>
 <rect x="1" y="1" width="1198" height="238" rx="18" fill="url(#bg)" stroke="#34506c" stroke-width="2"/>
 <rect x="720" y="2" width="478" height="236" rx="17" fill="url(#grid)"/>
 <path d="M44 45h38" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
-<text x="98" y="51" fill="#a9bed2" font-family="${font}" font-size="17" font-weight="600" letter-spacing="2.4">MR / ENGINEERING PORTFOLIO</text>
+<text x="98" y="51" fill="#a9bed2" font-family="${font}" font-size="17" font-weight="600" letter-spacing="2.4">MR_ / ENGINEERING PORTFOLIO</text>
 <text x="44" y="119" fill="#f0f6fc" font-family="${font}" font-size="44" font-weight="700">Games you can play.</text>
 <text x="44" y="174" fill="#79d6ff" font-family="${font}" font-size="44" font-weight="700">Code you can inspect.</text>
 <text x="46" y="211" fill="#a9bed2" font-family="${font}" font-size="16" letter-spacing="1">UNITY / C# / .NET</text>
@@ -66,10 +66,14 @@ const hero = `<defs>
 write('profile-banner', svg(1200, 240, 'Games you can play. Code you can inspect. Unity, C# and .NET.', hero));
 write('profile-banner-mobile', svg(640, 200, 'Games you can play. Code you can inspect. Unity, C# and .NET.',
   `<rect x="1" y="1" width="638" height="198" rx="16" fill="#102035" stroke="#34506c" stroke-width="2"/>
-  <text x="28" y="37" fill="#a9bed2" font-family="${font}" font-size="14" font-weight="600" letter-spacing="2">MR / ENGINEERING PORTFOLIO</text>
+  <text x="28" y="37" fill="#a9bed2" font-family="${font}" font-size="14" font-weight="600" letter-spacing="2">MR_ / ENGINEERING PORTFOLIO</text>
   <text x="28" y="88" fill="#f0f6fc" font-family="${font}" font-size="34" font-weight="700">Games you can play.</text>
   <text x="28" y="132" fill="#79d6ff" font-family="${font}" font-size="34" font-weight="700">Code you can inspect.</text>
   <text x="29" y="172" fill="#a9bed2" font-family="${font}" font-size="15" letter-spacing="1">UNITY / C# / .NET</text>
   <rect x="492" y="42" width="108" height="116" rx="16" fill="#162d44" stroke="#496580"/>
   ${icon('game','#79d6ff',526,54,40)}${icon('server','#bdc5ff',526,109,40)}`));
-console.log('Generated desktop/mobile banners, 10 buttons and 5 section icons.');
+// Preserve the actual portfolio favicon's MR mark, paper/ink palette and blue underscore.
+// Source: https://portfolio.michaelrusinek.workers.dev/favicon.svg (17 October 2026).
+write('portfolio-avatar', svg(512, 512, 'Michael Rusinek — MR portfolio mark',
+  `<rect width="512" height="512" fill="#f2f0e9"/><g transform="translate(32 32) scale(7)"><text x="6" y="43" font-family="Arial,sans-serif" font-size="30" font-weight="900" fill="#0b0b0c">MR</text><path d="M45 50h13" stroke="#245bff" stroke-width="4"/></g>`));
+console.log('Generated desktop/mobile banners, 10 buttons, 5 section icons and the portfolio avatar.');
