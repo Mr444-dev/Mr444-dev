@@ -100,28 +100,21 @@ What happens when a database transaction succeeds, but publishing its event fail
 
 ### <img src="docs/assets/icon-nodes.svg" width="28" height="28" alt=""> 03 · Flying AI Swarm
 
-**Public Unity prototype** · `C#` `Jobs` `Burst` `Spatial Hashing`
+**Unity prototype · public walkthrough** · `C#` `Jobs` `Burst` `Spatial Hashing`
 
 Flying-agent behaviour built around **flocking, formation strategies, state machines and reusable object pools**.
 
-- **Implementation:** a Burst-compiled `IJobParallelFor` evaluates nearby agents through a spatial hash; `FlockingSystem` manages native buffers and schedules jobs.
-- **Review path:** public source, a focused code tour and setup instructions — including what still needs validation.
+- **Engineering focus:** a Burst-compiled `IJobParallelFor` evaluates nearby agents through spatial hashing; the system manages native buffers and schedules jobs.
+- **Source access:** the full Unity repository remains private while redistribution rights for bundled third-party plugins are checked.
 
 <p>
-  <a href="https://github.com/Mr444-dev/Unity-Flying-AI-Swarm"><img src="docs/assets/button-source.svg" alt="Explore Flying AI Swarm source and setup" width="180" height="44"></a>
-  <a href="https://portfolio.michaelrusinek.workers.dev/work/flying-ai-swarm/"><img src="docs/assets/button-walkthrough.svg" alt="Read the Flying AI Swarm code walkthrough" width="202" height="44"></a>
+  <a href="https://portfolio.michaelrusinek.workers.dev/work/flying-ai-swarm/"><img src="docs/assets/button-walkthrough.svg" alt="Read the public Flying AI Swarm technical walkthrough" width="202" height="44"></a>
 </p>
 
 <details>
-<summary><strong>Technical review · three source entry points and performance scope</strong></summary>
+<summary><strong>Technical scope · performance evidence</strong></summary>
 
-1. [**FlockingJob.cs**](https://github.com/Mr444-dev/Unity-Flying-AI-Swarm/blob/main/Assets/Scripts/FlyingAI/Flocking/FlockingJob.cs) — parallel neighbour evaluation and flocking behaviour.
-2. [**FormationFactory.cs**](https://github.com/Mr444-dev/Unity-Flying-AI-Swarm/blob/main/Assets/Scripts/FlyingAI/Formations/FormationFactory.cs) — formation strategy selection.
-3. [**ObjectPoolBase.cs**](https://github.com/Mr444-dev/Unity-Flying-AI-Swarm/blob/main/Assets/Scripts/FlyingAI/Pooling/ObjectPoolBase.cs) — prewarming, reuse and pool expansion.
-
-This is a technical prototype. Reproducible frame-time and allocation captures are still needed before quoting performance results.
-
-</details>
+The public walkthrough discusses the system design. Reproducible frame-time and allocation captures are still needed before quoting performance results. The complete source is not linked while bundled plugin redistribution rights are being reviewed.</details>
 
 ---
 
