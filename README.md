@@ -60,6 +60,7 @@ A 3D aerial-combat game set over London. My teammate and I built it from the gro
 - **My contribution:** game design and programming as part of the two-person team. We built the game together; individual system ownership was not recorded, so I do not claim features exclusively.
 - **Release signal:** the [Google Play listing](https://play.google.com/store/apps/details?id=com.WPF.PigInvasion) currently displays **1K+ downloads**. This is a rounded store threshold, not an exact count or an individual result.
 - **Engineering evidence:** my thesis documents object-pooling Profiler observations and a Monte Carlo difficulty model. The Profiler screenshots lack repeatable device/run details, and the retention figures are simulated rather than live-player results.
+- **Scope boundary:** the thesis also describes Remote Config, server-side reward validation and BigQuery; these have not been verified against a release-matched source or deployed backend.
 
 <p>
   <a href="https://portfolio.michaelrusinek.workers.dev/work/humanitys-last-stand/#project-recording"><img src="docs/assets/button-gameplay.svg" alt="Watch real gameplay" width="182" height="44"></a>
