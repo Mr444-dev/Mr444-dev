@@ -12,7 +12,7 @@
 
 <p align="center">
   I build gameplay systems in <strong>Unity / C#</strong> and backend prototypes with <strong>.NET</strong>.<br>
-  Co-created and shipped <strong>Humanity’s Last Stand</strong> — <strong>1,000+ downloads on Google Play</strong>.
+  Co-created and released <strong>Humanity’s Last Stand</strong>, a two-person Android game. Google Play currently shows its rounded <strong>1K+ downloads</strong> badge.
 </p>
 
 <p align="center">
@@ -49,25 +49,28 @@
 
 ### <img src="docs/assets/icon-game.svg" width="28" height="28" alt=""> 01 · Humanity’s Last Stand
 
-**Released Android game** · `Unity` `C#` · Two-person team
+**Released Android aerial shooter** · `Unity` `C#` · Two-person team
 
-A 3D aerial-combat game with enemy encounters, aircraft progression and weapon upgrades — taken from idea to public release.
+A 3D aerial-combat game set over London. My teammate and I built it from the ground up and released it on Android. The gameplay capture shows the aircraft, city environment, aiming and shooting controls, and HUD. The store listing describes enemy encounters, aircraft progression, weapon upgrades and missions.
 
 <p align="center">
   <a href="https://portfolio.michaelrusinek.workers.dev/work/humanitys-last-stand/#project-recording"><img src="docs/assets/humanitys-last-stand.jpg" alt="Actual Humanity’s Last Stand gameplay — select to watch the recording" width="720"></a>
 </p>
 
-- **My role:** primary responsibility for programming and gameplay; also game design, testing, store icons and descriptions, and release preparation. My teammate focused mainly on models and assets. We developed and published the game together.
-- **Released:** **1,000+ downloads** on Google Play, as displayed on 16 October 2026. Known during development as *Pig Invasion*.
+- **My contribution:** game design and programming as part of the two-person team. We built the game together; individual system ownership was not recorded, so I do not claim features exclusively.
+- **Release signal:** the [Google Play listing](https://play.google.com/store/apps/details?id=com.WPF.PigInvasion) currently displays **1K+ downloads**. This is a rounded store threshold, not an exact count or an individual result.
+- **Engineering evidence:** my thesis documents object-pooling Profiler observations and a Monte Carlo difficulty model. The Profiler screenshots lack repeatable device/run details, and the retention figures are simulated rather than live-player results.
 
 <p>
   <a href="https://portfolio.michaelrusinek.workers.dev/work/humanitys-last-stand/#project-recording"><img src="docs/assets/button-gameplay.svg" alt="Watch real gameplay" width="182" height="44"></a>
   <a href="https://portfolio.michaelrusinek.workers.dev/work/humanitys-last-stand/"><img src="docs/assets/button-case-study.svg" alt="Read the game case study" width="150" height="44"></a>
 </p>
 <p>
-  <a href="https://play.google.com/store/apps/details?id=com.WPF.PigInvasion"><img src="docs/assets/google-play-badge.svg" alt="Get Humanity’s Last Stand on Google Play" width="180"></a>
+  <a href="https://portfolio.michaelrusinek.workers.dev/notes/humanitys-last-stand-liveops/">Read the engineering note: Unity profiling and the simulated balance test ↗</a>
 </p>
-
+<p>
+  <a href="https://play.google.com/store/apps/details?id=com.WPF.PigInvasion"><img src="docs/assets/google-play-badge.svg" alt="Open Humanity’s Last Stand on Google Play" width="180"></a>
+</p>
 ---
 
 <a name="mr-backend"></a>
