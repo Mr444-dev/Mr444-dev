@@ -83,7 +83,7 @@ A 3D aerial-combat game set over London. My teammate and I built it from the gro
 What happens when a database transaction succeeds, but publishing its event fails? Blackbox explores that boundary in an order workflow using a **transactional outbox** and a Kafka worker.
 
 - **Implementation:** workflow state and outbox records commit together; a worker claims pending records and publishes them to Kafka.
-- **Evidence:** a public case study with code excerpts, a transaction diagram, failure scenarios and a dated test record. The repository is private.
+- **Evidence:** a public case study with code excerpts, a transaction diagram, failure scenarios and a dated test record. The [public repository is available on GitHub](https://github.com/Mr444-dev/blackbox).
 
 <p>
   <a href="https://portfolio.michaelrusinek.workers.dev/notes/transactional-outbox/"><img src="docs/assets/button-backend.svg" alt="Read the backend reliability case study" width="210" height="44"></a>
