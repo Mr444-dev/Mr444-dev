@@ -8,7 +8,7 @@
 </p>
 
 <h1 align="center">Michael Rusinek</h1>
-<p align="center"><strong>Software Engineer · Unity &amp; .NET</strong></p>
+<p align="center"><strong>Software &amp; Game Systems Engineer · C++20 / D3D12 · UE 5.8 · CRYENGINE · Unity 6 DOTS · .NET 10</strong></p>
 
 <p align="center">
   I build gameplay systems in <strong>Unity / C#</strong> and backend prototypes with <strong>.NET</strong>.<br>
@@ -20,6 +20,11 @@
   <a href="https://portfolio.michaelrusinek.workers.dev/cv/M_Rusinek_Software_Engineer.pdf"><img src="docs/assets/button-cv.svg" alt="Open my Software Engineer CV — PDF" width="144" height="44"></a>
   <a href="https://www.linkedin.com/in/michaelrusinek/"><img src="docs/assets/button-linkedin.svg" alt="Connect on LinkedIn" width="144" height="44"></a>
   <a href="mailto:michael.rusinek.contact@gmail.com"><img src="docs/assets/button-email.svg" alt="Email me" width="144" height="44"></a>
+</p>
+
+<p align="center">
+  <a href="https://www.youtube.com/@MichaelRusinek">YouTube</a> ·
+  <a href="https://x.com/mrusinek_dev">X</a>
 </p>
 
 <p align="center">
