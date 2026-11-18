@@ -1,36 +1,63 @@
-# Michael (Michał) Rusinek
+<a name="mr-top"></a>
 
-**Software & Game Systems Engineer**  
-C# · .NET 10 · Unity 6 · C++20 · Direct3D 12 · PostgreSQL · Kafka
+<p align="center">
+  <picture>
+    <source media="(max-width: 640px)" srcset="docs/assets/profile-banner-mobile.svg">
+    <img src="docs/assets/profile-banner.svg" alt="Engineering systems, game projects and inspectable evidence" width="100%">
+  </picture>
+</p>
 
-I build systems, show the evidence, and document where each result stops. **Measure. Then claim.**
+<h1 align="center">Michael (Michał) Rusinek</h1>
+<p align="center"><strong>Software &amp; Game Systems Engineer · C++20 / D3D12 · Unity 6 · .NET 10</strong></p>
 
-[Interactive portfolio and Engineering X-Ray](https://portfolio.michaelrusinek.workers.dev/) ·
-[GitHub](https://github.com/Mr444-dev) ·
-[GitLab](https://gitlab.com/Mr444-dev) ·
-[Software Engineer CV](https://portfolio.michaelrusinek.workers.dev/cv/M_Rusinek_Software_Engineer.pdf) ·
-[Game and Systems CV](https://portfolio.michaelrusinek.workers.dev/cv/M_Rusinek_Game_Systems.pdf) ·
-[LinkedIn](https://www.linkedin.com/in/michaelrusinek/) ·
-[YouTube](https://www.youtube.com/@MichaelRusinek) ·
-[X](https://x.com/mrusinek_dev) ·
-[Email](mailto:michael.rusinek.contact@gmail.com)
+<p align="center">
+  I build real-time systems and backend prototypes, then document how they work and what was measured.
+  <br><strong>Measure. Then claim.</strong>
+</p>
 
-## Why GitHub and GitLab?
+<p align="center">
+  <a href="https://portfolio.michaelrusinek.workers.dev/"><img src="docs/assets/button-portfolio.svg" alt="Open my interactive portfolio and Engineering X-Ray" width="200" height="44"></a>
+  <a href="https://portfolio.michaelrusinek.workers.dev/cv/M_Rusinek_Software_Engineer.pdf"><img src="docs/assets/button-cv.svg" alt="Open my Software Engineer CV" width="144" height="44"></a>
+  <a href="https://portfolio.michaelrusinek.workers.dev/cv/M_Rusinek_Game_Systems.pdf"><img src="docs/assets/button-game-cv.svg" alt="Open my Game and Systems CV" width="178" height="44"></a>
+  <a href="https://www.linkedin.com/in/michaelrusinek/"><img src="docs/assets/button-linkedin.svg" alt="Connect on LinkedIn" width="144" height="44"></a>
+  <a href="mailto:michael.rusinek.contact@gmail.com"><img src="docs/assets/button-email.svg" alt="Email me" width="144" height="44"></a>
+</p>
 
-GitHub is my primary surface for public collaboration and source history. I mirror selected flagship repositories to GitLab so GitLab CI pipelines can provide an additional verification path alongside GitHub Actions.
+<p align="center">
+  <a href="https://github.com/Mr444-dev">Primary GitHub profile</a> ·
+  <a href="https://gitlab.com/Mr444-dev">GitLab</a> ·
+  <a href="https://www.youtube.com/@MichaelRusinek">YouTube</a> ·
+  <a href="https://x.com/mrusinek_dev">X</a> ·
+  <a href="https://www.linkedin.com/in/michaelrusinek/">LinkedIn</a>
+</p>
 
-## Selected work
+<p align="center">
+  <strong>Open to Software Engineer, Unity Developer and C#/.NET roles</strong><br>
+  Wrocław, Poland · <a href="https://portfolio.michaelrusinek.workers.dev/cv/">View both CV editions</a>
+</p>
 
-These six public repositories match the projects pinned on my GitHub profile.
+---
 
-| Project | Stack | Portfolio X-Ray | Source |
+<p align="center">
+  <a href="#mr-work">Selected work</a> ·
+  <a href="#mr-practice">Engineering practice</a> ·
+  <a href="#mr-more">More to explore</a> ·
+  <a href="#mr-contact">Contact</a>
+</p>
+
+<a name="mr-work"></a>
+<h2 align="center"><img src="docs/assets/icon-layers.svg" width="28" height="28" alt=""> Selected work</h2>
+
+<p align="center">Six public repositories pinned on this profile, each linked to its portfolio case study and source.</p>
+
+| Project | Stack | Portfolio X-Ray | Repository |
 | --- | --- | --- | --- |
-| **Blackbox** | .NET 10, PostgreSQL, Kafka | [Backend case study](https://portfolio.michaelrusinek.workers.dev/notes/transactional-outbox/) | [Repository](https://github.com/Mr444-dev/blackbox) |
-| **Arcglass Engine** | C++20, Direct3D 12, HLSL | [Engine case study](https://portfolio.michaelrusinek.workers.dev/work/arcglass-engine/) | [Repository](https://github.com/Mr444-dev/ArcglassEngine) |
-| **ProcureScope** | Python, PostgreSQL, dbt, Airflow | [Data pipeline case study](https://portfolio.michaelrusinek.workers.dev/work/procurescope/) | [Repository](https://github.com/Mr444-dev/ProcureScope) |
-| **QuantumBody** | C++20, rigid-body physics, CTest | [Physics case study](https://portfolio.michaelrusinek.workers.dev/work/quantum-body/) | [Repository](https://github.com/Mr444-dev/QuantumBody) |
-| **Blackhole Compute Simulation** | Unity 6, HLSL, GPU Compute, Burst | [Simulation X-Ray](https://portfolio.michaelrusinek.workers.dev/work/blackhole-simulation/) | [Repository](https://github.com/Mr444-dev/unity-blackhole-compute-sim) |
-| **PathDrawer** | Unity 6, C#, Burst, geometry | [Tool case study](https://portfolio.michaelrusinek.workers.dev/work/pathdrawer/) | [Repository](https://github.com/Mr444-dev/unity-trajectory-pathdrawer) |
+| **Blackbox** | .NET 10, PostgreSQL, Kafka | [Backend case study](https://portfolio.michaelrusinek.workers.dev/notes/transactional-outbox/) | [Source](https://github.com/Mr444-dev/blackbox) |
+| **Arcglass Engine** | C++20, Direct3D 12, HLSL | [Engine case study](https://portfolio.michaelrusinek.workers.dev/work/arcglass-engine/) | [Source](https://github.com/Mr444-dev/ArcglassEngine) |
+| **ProcureScope** | Python, PostgreSQL, dbt, Airflow | [Data pipeline case study](https://portfolio.michaelrusinek.workers.dev/work/procurescope/) | [Source](https://github.com/Mr444-dev/ProcureScope) |
+| **QuantumBody** | C++20, rigid-body physics, CTest | [Physics case study](https://portfolio.michaelrusinek.workers.dev/work/quantum-body/) | [Source](https://github.com/Mr444-dev/QuantumBody) |
+| **Blackhole Compute Simulation** | Unity 6, HLSL, GPU Compute, Burst | [Simulation X-Ray](https://portfolio.michaelrusinek.workers.dev/work/blackhole-simulation/) | [Source](https://github.com/Mr444-dev/unity-blackhole-compute-sim) |
+| **PathDrawer** | Unity 6, C#, Burst, geometry | [Tool case study](https://portfolio.michaelrusinek.workers.dev/work/pathdrawer/) | [Source](https://github.com/Mr444-dev/unity-trajectory-pathdrawer) |
 
 ### Blackbox: delivery and duplicate handling
 
@@ -50,16 +77,31 @@ PathDrawer includes iterative Ramer-Douglas-Peucker simplification, centripetal 
 | 500 | 1.854 ms | 2.187 ms |
 | 2,000 | 7.803 ms | 9.430 ms |
 
-## More to explore
+## Why both GitHub and GitLab?
 
-- [Humanity’s Last Stand](https://portfolio.michaelrusinek.workers.dev/work/humanitys-last-stand/) is a released two-person Android game. My teammate and I built it from the ground up; my contribution was game design and programming as part of the team. The Google Play listing displays a rounded 1K+ downloads badge, not an exact or individual result.
-- [BOHEMIA-ALIFE](https://github.com/Mr444-dev/BOHEMIA-ALIFE) is a public C++20 town simulation with a native Win32 viewer and CRYENGINE 5.7 adapter source. The standalone viewer and CTest suite are the runnable verified path; the CRYENGINE adapter is not yet verified as a runnable Sandbox plugin.
-- [Flying AI Swarm walkthrough](https://portfolio.michaelrusinek.workers.dev/work/flying-ai-swarm/) documents a Unity Jobs and Burst prototype. Its source repository is private, so this is a source-derived portfolio walkthrough rather than a public code sample.
+GitHub is my primary surface for public collaboration and source history. I mirror selected flagship repositories to GitLab so GitLab CI pipelines can provide an additional verification path alongside GitHub Actions.
 
-## Engineering practice
+<a name="mr-more"></a>
+<h2 align="center"><img src="docs/assets/icon-layers.svg" width="28" height="28" alt=""> More to explore</h2>
+
+- [**Humanity’s Last Stand**](https://portfolio.michaelrusinek.workers.dev/work/humanitys-last-stand/) is a released two-person Android game. My teammate and I built it from the ground up; my contribution was game design and programming as part of the team. The Google Play listing displays a rounded 1K+ downloads badge, not an exact or individual result.
+- [**BOHEMIA-ALIFE**](https://github.com/Mr444-dev/BOHEMIA-ALIFE) is a public C++20 town simulation with a native Win32 viewer and CRYENGINE 5.7 adapter source. The standalone viewer and CTest suite are the runnable verified path; the CRYENGINE adapter is not yet verified as a runnable Sandbox plugin.
+- [**Flying AI Swarm walkthrough**](https://portfolio.michaelrusinek.workers.dev/work/flying-ai-swarm/) documents a Unity Jobs and Burst prototype. Its source repository is private, so this is a source-derived portfolio walkthrough rather than a public code sample.
+- Unreal Engine 5.8 and Unity DOTS are areas I am developing further; there is not currently a public flagship repository for either.
+
+<a name="mr-practice"></a>
+<h2 align="center"><img src="docs/assets/icon-code.svg" width="28" height="28" alt=""> Engineering practice</h2>
 
 C# · .NET 10 · Unity 6 · C++20 · Direct3D 12 · HLSL · PostgreSQL · Kafka · Python · Docker Compose · CMake · xUnit · CTest · Playwright · GitHub Actions · GitLab CI
 
-The detailed case studies separate implemented behavior, test evidence, local measurements and remaining limits. Source links are included where the repository is public.
+The case studies separate implemented behavior, test evidence, local measurements and remaining limits. Source links appear where the repository is public.
 
-[Portfolio](https://portfolio.michaelrusinek.workers.dev/) · [Contact](mailto:michael.rusinek.contact@gmail.com) · [Back to top](#michael-michał-rusinek)
+<a name="mr-contact"></a>
+<h2 align="center">Let’s build something useful.</h2>
+
+<p align="center">
+  <strong>Open to a conversation about software, game systems and engineering work.</strong><br>
+  <a href="mailto:michael.rusinek.contact@gmail.com">michael.rusinek.contact@gmail.com</a>
+</p>
+
+<p align="center"><a href="#mr-top">↑ Back to top</a></p>
