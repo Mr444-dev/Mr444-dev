@@ -52,19 +52,19 @@
 
 | Project | Stack | Case study / official page | Repository |
 | --- | --- | --- | --- |
-| **Blackbox** | .NET 10, PostgreSQL, Kafka | [Backend case study](https://portfolio.michaelrusinek.workers.dev/notes/transactional-outbox/) | [Source](https://github.com/Mr444-dev/blackbox) |
+| **Blackbox** | .NET 10, PostgreSQL, Kafka | [Historical outbox note — 14 Oct 2026](https://portfolio.michaelrusinek.workers.dev/notes/transactional-outbox/) | [Source](https://github.com/Mr444-dev/blackbox) |
 | **Arcglass Engine** | C++20, Direct3D 12, HLSL | [Engine case study](https://portfolio.michaelrusinek.workers.dev/work/arcglass-engine/) | [Source](https://github.com/Mr444-dev/ArcglassEngine) |
 | **ProcureScope** | Python, PostgreSQL, dbt, Airflow | [Data pipeline case study](https://portfolio.michaelrusinek.workers.dev/work/procurescope/) | [Source](https://github.com/Mr444-dev/ProcureScope) |
 | **QuantumBody** | C++20, rigid-body physics, CTest | [Physics case study](https://portfolio.michaelrusinek.workers.dev/work/quantum-body/) | [Source](https://github.com/Mr444-dev/QuantumBody) |
 | **Blackhole Compute Simulation** | Unity 6, HLSL, GPU Compute, Burst | [Simulation X-Ray](https://portfolio.michaelrusinek.workers.dev/work/blackhole-simulation/) | [Source](https://github.com/Mr444-dev/unity-blackhole-compute-sim) |
-| **PathDrawer** | Unity 6, C#, Burst, geometry | [Tool case study](https://portfolio.michaelrusinek.workers.dev/work/pathdrawer/) | [Source](https://github.com/Mr444-dev/unity-trajectory-pathdrawer) |
+| **PathDrawer** | Unity 6, C#, Burst, geometry | [Tool case study](https://portfolio.michaelrusinek.workers.dev/work/pathdrawer/) | [Source · MIT C#](https://github.com/Mr444-dev/unity-trajectory-pathdrawer) |
 | **OmniTwin** | Unity 6, .NET 10, Roslyn, Windows AppContainer | [Official hackathon gallery](https://cerebralvalley.ai/e/meta-ai-developer-hackathon/hackathon/gallery/4371) | [Source](https://github.com/Mr444-dev/OmniTwin) |
 | **BOHEMIA-ALIFE** | C++20, Win32, CTest, CRYENGINE 5.7 adapter source | [Runnable demo and project evidence](https://github.com/Mr444-dev/BOHEMIA-ALIFE#run-the-live-demo) | [Source](https://github.com/Mr444-dev/BOHEMIA-ALIFE) |
 
 ### Hackathons & rapid builds
 
 - **OmniTwin | Meta Global AI Developer Hackathon, “Push the Frontier”:** [official Cerebral Valley gallery](https://cerebralvalley.ai/e/meta-ai-developer-hackathon/hackathon/gallery/4371) · [GitHub source](https://github.com/Mr444-dev/OmniTwin). The submitted project page reports 438/438 automated tests. The current main README reports 450 tests and a 234 FPS 1920 × 1080 synthetic Windows replay; that replay is not live-camera or physical-robotics evidence.
-- **itch.io playable builds:** [Acoustic World](https://mr444-dev.itch.io/acoustic-world) is a released Windows C++ demo; [MudRunner Terra // DOTS](https://mr444-dev.itch.io/mudrunner-terra-dots), [OPTIC-PRISM DOTS](https://mr444-dev.itch.io/optic-prism-dots), and [NEURO-ARENA // DOTS](https://mr444-dev.itch.io/neuro-arena-dots) are browser-playable prototypes and workbenches. See the [full itch.io profile](https://mr444-dev.itch.io/).
+- **itch.io playable builds:** [Acoustic World](https://mr444-dev.itch.io/acoustic-world) is a released Windows C++ demo; [MudRunner Terra // DOTS](https://mr444-dev.itch.io/mudrunner-terra-dots), [OPTIC-PRISM DOTS](https://mr444-dev.itch.io/optic-prism-dots), and [NEURO-ARENA // DOTS](https://mr444-dev.itch.io/neuro-arena-dots) are browser-playable prototypes and workbenches. See the [full itch.io profile](https://mr444-dev.itch.io/). **FORGE OF SEVEN** is another browser-playable jam prototype; I supplied its original concept and creative direction. Its [itch.io page](https://mr444-dev.itch.io/forge-of-seven) discloses AI assistance with the title, code, UI, writing and images, plus ElevenLabs-generated voices and audio.
 
 ### Blackbox: delivery and duplicate handling
 
